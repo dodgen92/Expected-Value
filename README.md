@@ -1,5 +1,5 @@
 # Expected-Value
-A desktop app that calculates the sportsbook betting formula: Expected Value. Written in Java with 
+A desktop app that calculates the sportsbook betting formula: Expected Value. Written in Java, GUI created with Swing.
 
 How to run-
 
