@@ -15,7 +15,7 @@ public class ExpectedValueCalculator {
     // Prompt the user for the probability of losing
     String probabilityOfLosingInput = JOptionPane.showInputDialog(
         "Enter the probability of losing (as a decimal):");
-    double probabilityOfLosing = Double.parseDouble(probabilityOfLosingInput);
+    double probabilityOfLosing = 100 - probabilityOfWinning;
 
     // Prompt the user for the amount lost per bet
     String amountLostInput = JOptionPane.showInputDialog(
